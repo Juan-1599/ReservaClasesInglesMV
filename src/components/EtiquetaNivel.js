@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import { colors, spacing, typography } from '../theme'
+import { colors, spacing } from '../theme'
 
 export default function EtiquetaNivel({ nivel }) {
     return (
@@ -13,11 +13,13 @@ export default function EtiquetaNivel({ nivel }) {
 const styles = StyleSheet.create({
     contenedor: {
         alignSelf: 'flex-start',
-        paddingVertical: 3,
-        paddingHorizontal: spacing.md
+        paddingVertical: 4,
+        paddingHorizontal: spacing.lg,
+        borderRadius: 30,
+        backgroundColor: colors.primary,
+        marginBottom: spacing.sm,
     },
     texto: {fontSize: 11, fontWeight: '700', letterSpacing: 0.3}
 
 })
-
 

@@ -1,10 +1,10 @@
-import { Plataform } from 'react-native';
+import { Platform } from 'react-native';
 
 export const colors = {
-    fondo: '#F6F7FB',
-    primary: '#4F46E5',
-    texto: '#111827',
-    borde: '#E5E7EB',
+    fondo: '#f9f9f9',
+    primary: '#b336c3',
+    texto: '#1e1e21',
+    borde: '#afabab',
 };
 
 export const spacing = {
@@ -16,10 +16,10 @@ export const spacing = {
 };
 
 export const typography = {
-    titulo: {fontsize: 26, fontWeight: '800', color: colors.texto},
-    subtitulo: {fontsize: 18, fontWeight: '600', color: colors.texto},
-    parrafo: {fontsize: 16, fontWeight: '400', color: colors.texto},
-    boton: {fontsize: 18, fontWeight: '500', color: colors.fondo},
+    titulo: {fontSize: 28, fontWeight: '800', color: colors.texto},
+    subtitulo: {fontSize: 18, fontWeight: '600', color: colors.texto},
+    parrafo: {fontSize: 16, fontWeight: '400', color: colors.texto},
+    boton: {fontSize: 18, fontWeight: '500', color: colors.fondo},
 };
 
 export default {
@@ -27,6 +27,3 @@ export default {
     spacing,
     typography
 };
-
-
-

@@ -122,6 +122,6 @@ export const CLASES = [
     horarios: ['Mar 8:00 p.m.', 'Sáb 8:00 a.m.'],
   },
 ];
- 
+
 export const formatearPrecio = (valor) =>
   '$' + valor.toLocaleString('es-CO') + ' COP';
